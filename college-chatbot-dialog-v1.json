@@ -1,0 +1,2167 @@
+{
+  "name": "College-Chatbot-dialog",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 38,
+    "entities": 36,
+    "dialog_nodes": 27
+  },
+  "status": "Available",
+  "created": "2024-06-29T17:50:16.994Z",
+  "updated": "2024-06-29T17:50:16.994Z",
+  "language": "en",
+  "skill_id": "7df4b546-d6da-4979-a8b4-828cc9d51495",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2024-06-29T17:50:16.994Z",
+    "intents": [
+      {
+        "intent": "events",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Tell me about the college events.",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Are there any upcoming events?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What events are organized in the college?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": "What events are organized in the college?"
+      },
+      {
+        "intent": "tutoring_programs",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "How can I get tutoring assistance?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Are there resources available for academic support",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Do students use any on-campus tutoring programs or..",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Events_and_Activities",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What workshops are happening this semester",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What [Event Type] are happening this [Semester Name]?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "Career_Services_Assistance",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "How do I sign up for [Career Service]?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "location",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Where is the college located?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How can I reach the college?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What is the college address?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "admission",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Tell me about the admission criteria.",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How can I take admission in the college?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What is the admission process?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "hostel",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What are the hostel fees?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Where is the hostel located?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Does the college provide hostel facilities?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "thank_you",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Thanks a lot",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Thank you",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Thanks so much",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Appreciate it",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "computer_labs",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "How accessible are the computer labs?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Are there enough computer labs?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Is there a shortage of computer lab facilities?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "library",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What are the library timings?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Does the college have a library?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Where is the library located?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "contact",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "How can I contact the college?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Can I get your contact number?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "how to contact to college",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What is the college telephone number?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "facilities",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What facilities are available in the college?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "college facilities",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Do you have a sports complex?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Tell me about the college facilities.",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Admissions_Inquiry",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What are the requirements for applying to your [Program Type] program?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "placement",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Tell me about the college placements.",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What is the placement record?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "give some information about placement",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How are the placements in the college?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "study_time",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What's the average study time for students?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Is there a lot of studying required?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How much time do students spend studying per week?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "popular_clubs",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Which clubs and student organizations are popular?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What are some of the most active student organizat...",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Are there any standout clubs on campus?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Technology_Support",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "How do I connect to the campus Wi-Fi?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "college_information",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "give some information of college",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "college information",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "can you please provide information about college",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "hours",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "When is the college open?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What are the college timings?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What are your hours of operation?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": "What are the college timings?"
+      },
+      {
+        "intent": "academics_reputation",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Are there any standout departments in your college...",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What departments or programs have the best reputation",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Which academic programs are well-regarded?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Campus_Facilities_Inquiry",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Where is the nearest [Campus Facility]?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What workshops are happening this semester",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "alumni_association",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "How visible is your school's alumni association on...",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Are there opportunities to connect with alumni?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Does the college have an active alumni network?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "library_services",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What are the library hours?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "Housing_Options_Inquiry",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Can you provide information about [Housing Option]?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "fees",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What are the hostel fees?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Tell me about the fees",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How much is the college fee?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "farewell",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Talk to you later",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "See you later",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Bye",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Goodbye",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "byy",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Financial_Aid_Queries",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "How can I apply for loan?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How can I apply for scholarships?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How can I apply for [Financial Aid Type]?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "Student_Life_Inquiry",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "General_Information",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "Faculty_Information",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Who teaches [Course Code] this semester?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "courses",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "course information",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What courses are offered in the college?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What are the branches in the college?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Can you tell me about the available courses?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": "What courses are offered in the college?"
+      },
+      {
+        "intent": "internship_opportunities",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Are internships available? How do you find them?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What internship opportunities are there?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How does the college support students in finding i...",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Academic_Calendar_Information",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "When are the [Semester Name] classes starting?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "first_year_experience",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What should I expect as a freshman?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "What's it like to be a first-year student here?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Can you describe the first-year experience?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Course_Information",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Can you tell me about the syllabus for [Course Code]?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "greeting",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Good Morning",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Hey",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Good day",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Hello",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "How are you ?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Good afternoon",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Hi",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "study_abroad",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "Is it popular to study abroad?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Are there study abroad programs available?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Can students spend a semester abroad?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Emergency_Contact_Information",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "What should I do in case of emergency?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ]
+      },
+      {
+        "intent": "class_size",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "examples": [
+          {
+            "text": "How big are your classes?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Are the class sizes large or small?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          },
+          {
+            "text": "Do you have small class sizes?",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2024-06-29T17:50:16.994Z",
+    "entities": [
+      {
+        "entity": "Placement",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "placement",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Information about placement services",
+              "placement rates",
+              "job fairs",
+              "and placement rates",
+              "career counseling",
+              "including job fairs"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "academic_reputation",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "reputation",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "college reputation",
+              "department reputation"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Department_Name",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Computer Science",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Economics",
+              "Biology"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Popular_Clubs",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Information about popular student clubs and organizations",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "cultural clubs",
+              "academic clubs",
+              "sports clubs"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Computer_Labs",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "computer labs",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Information about computer labs",
+              "number of computers",
+              "available software",
+              "lab hours",
+              "lab locations",
+              "and resources",
+              "availability",
+              "including locations"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Scholarship_Name",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "John Smith Scholarship",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Scholarships",
+              "Academic Excellence Award",
+              "Jane Doe Grant"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "alumni_associations",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "alumni",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "alumni meet",
+              "alumni association"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Financial_Aid_Type",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "scholarship",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "loan",
+              "Scholarships",
+              "scholoarships",
+              "student loan",
+              "grant"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Student_Club",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "student club",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "club",
+              "popular clubs",
+              "debate club",
+              "coding club",
+              "photography club"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Deadline",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "fall semester deadline",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "scholarship application deadline",
+              "spring semester deadline"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "fees",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "fees",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "fees structure",
+              "college fees"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Hostel",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "hostel",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Information about hostel accommodations",
+              "hostel policies",
+              "hostel availability",
+              "room types",
+              "policies",
+              "availability",
+              "including room types"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Tuition_Cost",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "domestic student tuition",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "semester fees",
+              "international student tuition"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Event_Type",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "workshop",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "workshops",
+              "guest lecture",
+              "orientation"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Housing_Option",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "on-campus dormitory",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "student housing application",
+              "off-campus apartment"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Emergency_Contact",
+        "values": [],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Facilities",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "facilities",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "college facilities",
+              "campus facilities",
+              "Information about campus facilities",
+              "parking",
+              "study areas",
+              "cafeteria",
+              "gym",
+              "and services",
+              "amenities",
+              "including buildings"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Study_Tutoring_Programs",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Information about study tutoring programs",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "how to sign up",
+              "tutoring subjects",
+              "tutoring availability",
+              "and how to sign up",
+              "subjects",
+              "including availability"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Career_Service",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "resume workshop",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "career fair",
+              "internship placement"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Course_Information",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "course",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Information about courses offered",
+              "course",
+              "courses",
+              "course information",
+              "course schedule",
+              "and schedules course descriptions",
+              "prerequisites",
+              "including course descriptions"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Admissions_Requirement",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "SAT score",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "letter of recommendation",
+              "GPA"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Study_Abroad",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "study abroad",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "ad programs",
+              "program dates",
+              "application requirements",
+              "requirements",
+              "including destinations"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Events",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "events",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "college event",
+              "Information about upcoming events",
+              "event details",
+              "event locations",
+              "upcoming events",
+              "details",
+              "locations",
+              "including dates"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Location",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "location",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Information about the campus location",
+              "nearby landmarks",
+              "directions",
+              "campus address",
+              "including address and directions"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Contact",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "contact",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "General contact information for the institution",
+              "contact",
+              "admissions office contact",
+              "email address",
+              "phone number",
+              "including phone numbers and email addresses"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Class_Size",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "class size",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "class sizes",
+              "information about the size of classes",
+              "student-to-teacher ratio",
+              "average class size",
+              "maximum capacity",
+              "including average class size"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Course_Code",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "CS101",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "MATH301",
+              "ENG202"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Library",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Information about the library",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "online resources",
+              "study rooms",
+              "available books",
+              "library hours",
+              "and services",
+              "resources",
+              "including hours"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Sports_Team",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "football team",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "volleyball team",
+              "basketball team"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "admission",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "admission",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "admission in btech",
+              "college admission"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Semester_Name",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "fall semester",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "semester",
+              "summer term",
+              "spring semester"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Academic_Calendar_Information",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "academic calendar",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Information about the academic calendar",
+              "exam schedule",
+              "spring break",
+              "fall semester dates",
+              "important deadlines",
+              "holidays",
+              "including start and end dates"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "college_information",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "college information",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "information about college",
+              "college name",
+              "college details",
+              "information about the college"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Campus_Facility",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "library",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "cafeteria",
+              "gymnasium"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Faculty_Name",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Dr. John Smith",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "Dr. Emily Brown",
+              "Prof. Jane Doe"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      },
+      {
+        "entity": "Program_Type",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "undergraduate",
+            "created": "2024-06-29T17:50:17.319Z",
+            "updated": "2024-06-29T17:50:17.319Z",
+            "synonyms": [
+              "postgraduate",
+              "graduate"
+            ]
+          }
+        ],
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z"
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 38,
+          "entities": 36,
+          "dialog_nodes": 27
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      },
+      "from-sample": true
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "events",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "For information about the events, please visit our college website."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Events",
+        "dialog_node": "node_8_1719679297067",
+        "previous_sibling": "node_6_1719679160793"
+      },
+      {
+        "type": "standard",
+        "title": "college information",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "City College is the best college in Agra, Uttar Pradesh, NAAC A+ offering Engineering, Management, pharmacy, computer application and biotech Degrees"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@college_information",
+        "dialog_node": "node_7_1719679940847",
+        "previous_sibling": "node_8_1719679297067"
+      },
+      {
+        "type": "standard",
+        "title": "Events and Activities",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "This semester, we have workshops on career development, financial literacy, and academic writing. Would you like more details about any specific workshop"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Event_Type || @Semester_Name",
+        "dialog_node": "node_7_1719566735657",
+        "previous_sibling": "node_9_1719566672774"
+      },
+      {
+        "type": "standard",
+        "title": "hostel",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "For detailed information about the hostel, please visit our college website."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Hostel",
+        "dialog_node": "node_1_1719681168062",
+        "previous_sibling": "node_6_1719680808971"
+      },
+      {
+        "type": "standard",
+        "title": "placement",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college has a good placement record. Many reputed companies visit our campus for recruitment."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Placement",
+        "dialog_node": "node_2_1719681589971",
+        "previous_sibling": "node_2_1719681268313"
+      },
+      {
+        "type": "standard",
+        "title": "Campus Facilities Inquiry",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The nearest library is located in building A, next to the main entrance. It's open from 8 AM to 10 PM Monday through Friday. Is there anything else you'd like to know about our campus facilities?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Campus_Facility",
+        "dialog_node": "node_9_1719566672774",
+        "previous_sibling": "node_9_1719566615273"
+      },
+      {
+        "type": "standard",
+        "title": "computer labs",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our college provides an ample number of computer labs across campus. These labs are accessible to students and equipped with the necessary technology and software needed for academic work."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Computer_Labs",
+        "dialog_node": "node_6_1719679160793",
+        "previous_sibling": "node_2_1719678966559"
+      },
+      {
+        "type": "standard",
+        "title": "admission",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "For detailed admission information, please visit our college website."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@admission",
+        "dialog_node": "node_2_1719678432217",
+        "previous_sibling": "node_1_1719677920423"
+      },
+      {
+        "type": "standard",
+        "title": "student club",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our college has a wide range of clubs and student organizations catering to diverse interests. Popular clubs include academic organizations, cultural clubs, sports teams, community service groups, and more."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Student_Club",
+        "dialog_node": "node_8_1719681880177",
+        "previous_sibling": "node_2_1719681589971"
+      },
+      {
+        "type": "standard",
+        "title": "academic reputation`",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our college has well-regarded departments in Computer Science, Engineering, and Business Administration. These programs have a strong reputation for academic excellence."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@academic_reputation",
+        "dialog_node": "node_1_1719677920423",
+        "previous_sibling": "node_9_1719677096062"
+      },
+      {
+        "type": "standard",
+        "title": "Faculty Information",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "CS101 is taught by Professor John Doe. He specializes in software engineering and has published several papers on artificial intelligence. Is there anything else you'd like to know about our faculty?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Course_Code || @Semester_Name",
+        "dialog_node": "node_1_1719566809119",
+        "previous_sibling": "node_7_1719566735657"
+      },
+      {
+        "type": "standard",
+        "title": "Course Informatio",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The syllabus for CS101 covers topics such as introduction to programming languages, data structures, and algorithms. Would you like more detailed information about any specific topics?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Course_Code",
+        "dialog_node": "node_1_1719566490177",
+        "previous_sibling": "node_7_1719555668853"
+      },
+      {
+        "type": "standard",
+        "title": "location",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college is located at Fatehabad road Agra, uttar pradesh You can find the location on Google Maps."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Location",
+        "dialog_node": "node_2_1719681268313",
+        "previous_sibling": "node_1_1719681168062"
+      },
+      {
+        "type": "standard",
+        "title": "Thank you",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "You're welcome! If you have any more questions, feel free to ask"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "#thank_you",
+        "dialog_node": "node_2_1719555665774",
+        "previous_sibling": "node_2_1719555661372"
+      },
+      {
+        "type": "standard",
+        "title": "alumni association",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Many colleges have active alumni associations that offer networking opportunities, mentorship programs, and career support for current students. The visibility and engagement of the alumni association can vary, but efforts are often made to connect students with alumni."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@alumni_associations",
+        "dialog_node": "node_2_1719678769278",
+        "previous_sibling": "node_2_1719678432217"
+      },
+      {
+        "type": "standard",
+        "title": "study abroad",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Studying abroad is a popular option for many students at our college. We offer various study abroad programs and opportunities to experience different cultures and gain international exposure."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Study_Abroad",
+        "dialog_node": "node_10_1719682197299",
+        "previous_sibling": "node_8_1719681880177"
+      },
+      {
+        "type": "standard",
+        "title": "fees",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "For detailed fee information, please visit our college website."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@fees",
+        "dialog_node": "node_10_1719682642189",
+        "previous_sibling": "node_10_1719682197299"
+      },
+      {
+        "type": "standard",
+        "title": "course information",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college offers courses in Information Technology, Computer Engineering, Mechanical Engineering,"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Course_Information",
+        "dialog_node": "node_9_1719677096062",
+        "previous_sibling": "node_2_1719676663117"
+      },
+      {
+        "type": "standard",
+        "title": "campus facilities",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college provides various facilities including a sports complex, labs, cafeteria, and a library."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Facilities",
+        "dialog_node": "node_6_1719680808971",
+        "previous_sibling": "node_7_1719679940847"
+      },
+      {
+        "type": "standard",
+        "title": "Financial Aid Queries",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "You can apply for scholarships by submitting a scholarship application form along with your admission application. Scholarships are awarded based on various criteria such as academic merit, financial need, and community involvement."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Financial_Aid_Type || @Semester_Name",
+        "dialog_node": "node_9_1719566615273",
+        "previous_sibling": "node_1_1719566490177"
+      },
+      {
+        "type": "standard",
+        "title": "Admissions Inquiry",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "To apply to our undergraduate program, you'll need to meet the following requirements:\n\n-High school diploma or equivalent\n-SAT or ACT scores\n-Letters of recommendation\n-Personal statement outlining your academic interests and goals\n\nIs there anything specific you would like to know more about?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Program_Type",
+        "dialog_node": "node_7_1719555668853",
+        "previous_sibling": "node_2_1719555665774"
+      },
+      {
+        "type": "standard",
+        "title": "class size",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Class sizes can vary depending on the course and program. While some classes may have a larger enrollment, others, especially upper-level courses, tend to have smaller class sizes for more personalized attention."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Class_Size",
+        "dialog_node": "node_2_1719678966559",
+        "previous_sibling": "node_2_1719678769278"
+      },
+      {
+        "type": "standard",
+        "title": "contact",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "You can contact the college at 123456789."
+                },
+                {
+                  "text": "you can go to our official website and contact"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "@Contact",
+        "dialog_node": "node_2_1719676663117",
+        "previous_sibling": "node_1_1719566809119"
+      },
+      {
+        "type": "standard",
+        "title": "Greetings",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello! How can I assist you today?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719555404618",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "#greeting",
+        "dialog_node": "node_2_1719555661372"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_10_1719555404618",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "folder",
+        "title": "basic conversations",
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "",
+        "dialog_node": "node_10_1719555404618",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello. I am khushal I made this bot and it provides college information. so you can ask any question about the college."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-06-29T17:50:17.319Z",
+        "updated": "2024-06-29T17:50:17.319Z",
+        "conditions": "welcome",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+      "nlp": {
+        "model": "latest"
+      },
+      "disambiguation": {
+        "enabled": false,
+        "randomize": true,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above."
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false
+  },
+  "description": "initial chat bot implementation",
+  "assistant_id": "8ed42985-7690-4c7f-a285-10f8de90dd08",
+  "dialog_settings": {
+    "source_assistant": "2f6b2c38-dfae-4fb4-994c-ed56eef9f5d4"
+  },
+  "assistant_references": [
+    {
+      "name": "College-Chatbot",
+      "assistant_id": "2f6b2c38-dfae-4fb4-994c-ed56eef9f5d4",
+      "skill_reference": "main skill"
+    }
+  ]
+}
